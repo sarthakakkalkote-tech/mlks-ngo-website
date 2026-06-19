@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h1>Contact Us</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/activities">Activities</a>
+    <a href="/gallery">Gallery</a>
+    <a href="/contact">Contact</a>
+</nav>
 
-<p>Email: ngo@example.com</p>
+<div class="card">
+    <h1>Contact Us</h1>
 
-<p>Phone: +91 XXXXX XXXXX</p>
+    <form>
+        <p>Name</p>
+        <input type="text" style="width:100%;padding:10px;">
 
-<a href="/">Back Home</a>
+        <p>Email</p>
+        <input type="email" style="width:100%;padding:10px;">
+
+        <p>Message</p>
+        <textarea style="width:100%;padding:10px;height:120px;"></textarea>
+
+        <br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 Maharashtra Lok Kalyankari Seva Sanstha</p>
+</footer>
 
 </body>
 </html>

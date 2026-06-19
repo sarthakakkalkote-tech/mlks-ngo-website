@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gallery</title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h1>Gallery</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/activities">Activities</a>
+    <a href="/gallery">Gallery</a>
+    <a href="/contact">Contact</a>
+</nav>
 
-<p>
-Images will be added here.
-</p>
+<h1 style="text-align:center;">Gallery</h1>
 
-<a href="/">Back Home</a>
+<div class="card">
+    <h2>Images Coming Soon</h2>
+    <p>NGO event photographs will be displayed here.</p>
+</div>
+
+<footer>
+    <p>© 2026 Maharashtra Lok Kalyankari Seva Sanstha</p>
+</footer>
 
 </body>
 </html>

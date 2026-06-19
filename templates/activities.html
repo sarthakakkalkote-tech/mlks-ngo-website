@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Activities</title>
+    <title>Activities</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h1>Activities</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/activities">Activities</a>
+    <a href="/gallery">Gallery</a>
+    <a href="/contact">Contact</a>
+</nav>
 
-<p>
-Educational Activities
-</p>
+<h1 style="text-align:center;">Our Activities</h1>
 
-<p>
-Sports Activities
-</p>
+<div class="card">
+    <h2>Education Support</h2>
+    <p>Scholarships, educational guidance and awareness programs.</p>
+</div>
 
-<p>
-Social Activities
-</p>
+<div class="card">
+    <h2>Health Camps</h2>
+    <p>Free medical checkups and healthcare awareness initiatives.</p>
+</div>
 
-<a href="/">Back Home</a>
+<div class="card">
+    <h2>Women Empowerment</h2>
+    <p>Skill development and self-employment support programs.</p>
+</div>
+
+<div class="card">
+    <h2>Community Welfare</h2>
+    <p>Social development and public welfare activities.</p>
+</div>
+
+<footer>
+    <p>© 2026 Maharashtra Lok Kalyankari Seva Sanstha</p>
+</footer>
 
 </body>
 </html>
