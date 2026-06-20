@@ -47,6 +47,7 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:20px;
+}
 
     .hero button{
     padding:12px 25px;
@@ -55,6 +56,7 @@ footer{
     background:#003366;
     color:white;
     font-size:16px;
+    
 }
 
 .hero button:hover{
@@ -97,4 +99,28 @@ footer{
 .card:hover{
     transform: translateY(-5px);
 }
+
+/* About Page */
+
+.about-banner{
+    background: linear-gradient(135deg,#0d6efd,#0a58ca);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.about-banner h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.about-section{
+    background:#f8f9fa;
+    padding:50px 0;
+}
+
+.about-card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
